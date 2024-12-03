@@ -1,4 +1,4 @@
-resource "aws_dynamodb_table" "state_locking" {
+resource "aws_dynamodb_table" "dynamodb-state-locking" {
   hash_key = "LockID"
   name     = "dynamodb-state-locking"
   attribute {
